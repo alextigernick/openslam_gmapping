@@ -6,7 +6,7 @@ else
 ifeq ($(MACOSX),1)
 SUBDIRS=utils sensor log configfile scanmatcher gridfastslam 
 else
-SUBDIRS=utils sensor log configfile scanmatcher gridfastslam gui 
+SUBDIRS=utils sensor log configfile scanmatcher gridfastslam #gui 
 endif
 endif
 
